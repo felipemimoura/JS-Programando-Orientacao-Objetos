@@ -1,0 +1,21 @@
+{
+  "name": "bytebank",
+  "version": "1.0.0",
+  "description": "Aprendendo sobre programação orientada a objetos com o projeto do bytebank",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemimoura/JS-Programando-Orientacao-Objetos.git"
+  },
+  "author": "Felipe Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemimoura/JS-Programando-Orientacao-Objetos/issues"
+  },
+  "homepage": "https://github.com/felipemimoura/JS-Programando-Orientacao-Objetos#readme",
+  "type": "module"
+}
