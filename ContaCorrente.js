@@ -1,8 +1,27 @@
+import { Cliente } from "./Cliente.js";
+
 export class ContaCorrente {
   agencia;
-  cliente;
+  _cliente;
 
   _saldo = 0;
+
+  //Setters
+  set cliente(novoValor) {
+    if (novoValor instanceof Cliente) {
+      this._cliente = novoValor;
+    }
+  }
+  //Getters
+  get cliente() {
+    return this._cliente;
+  }
+
+  get saldo() {
+    return this._saldo;
+  }
+
+  // Métodos
   sacar(valor) {
     if (this._saldo <= valor) {
       console.log("Não foi possivel realizar o saque");
