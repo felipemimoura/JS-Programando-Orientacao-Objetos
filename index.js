@@ -8,7 +8,7 @@ const contaCorrentCliente1 = new ContaCorrente(1001, cliente1);
 const contaPoupanca = new ContaPoupanca(50, cliente1, 1001);
 
 contaCorrentCliente1.depositar(500);
-contaCorrentCliente1.sacar(100);
+contaPoupanca.sacar(10);
 
 console.log(contaPoupanca);
-console.log(contaCorrentCliente1);
+// console.log(contaCorrentCliente1);
