@@ -1,7 +1,8 @@
 export class Cliente {
-  constructor(nome, cpf) {
+  constructor(nome, cpf, senha) {
     this._nome = nome;
     this._cpf = cpf;
+    this._senha = senha;
   }
   get cpf() {
     return this._cpf;
@@ -9,5 +10,9 @@ export class Cliente {
 
   get nome() {
     return this._nome;
+  }
+
+  autenticar(senha) {
+    return this._senha == senha;
   }
 }
